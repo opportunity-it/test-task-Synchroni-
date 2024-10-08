@@ -5,48 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title</title>
   </head>
-  <body>
-    <h1>Table markup</h1>
-    <table>
-      <caption>
+  <body style="background: #efefef; box-sizing: border-box">
+    <h1 style="line-height: 0; font-size: 0">Table markup</h1>
+    <table
+      style="
+        width: 600px;
+        background-image: url(./images/bg-table.jpg);
+        background-position: 100% 31%;
+        background-repeat: no-repeat;
+        background-size: contain;
+      "
+      cellpadding="0"
+      cellspacing="0"
+      align="center"
+    >
+      <caption style="line-height: 0; font-size: 0">
         Layout of email mailings
       </caption>
       <thead>
         <tr>
-          <th>Messages</th>
+          <th style="line-height: 0; font-size: 0">Messages</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td
             style="
-              padding-top: 30px;
-              padding-bottom: 30px;
-              padding-right: 40px;
-              padding-left: 40px;
-
-              max-width: 320px;
-              margin-right: auto;
-              margin-left: auto;
-
+              padding: 30px 40px;
+              width: 520px;
               background-image: url(./images/eader-bg.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: auto;
             "
           >
             <a
               href="#"
               style="
                 display: block;
-
                 font-family: Arial, sans-serif;
-                font-size: 32px;
-                font-style: normal;
+                font-size: 2em;
                 font-weight: 700;
-                line-height: normal;
-
+                line-height: 20px;
                 text-transform: uppercase;
                 text-align: center;
                 text-decoration: none;
-
                 color: #000000;
               "
               >Logo here</a
@@ -54,128 +57,404 @@
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              padding-top: 30px;
-              padding-bottom: 30px;
-              padding-right: 40px;
-              padding-left: 40px;
-
-              max-width: 320px;
-              margin-right: auto;
-              margin-left: auto;
-            "
-          >
-            <h2>Sveta111, win! lottery gifts</h2>
-            <p>
-              We have a whole "Universe of Prizes" and we are ready to share
-              great gifts with you! All you have to do to get them is win an
-              exciting lottery that runs every day.
-            </p>
-            <button type="button">Play</button>
-            <img
-              src="./images/img-first-desk.jpg"
-              alt="monitor of imac"
-              width="172"
-              height="210"
-            />
+          <td>
+            <table
+              cellpadding="0"
+              cellspacing="0"
+              align="center"
+              style="padding: 32px 40px 20px 40px"
+            >
+              <tr>
+                <td
+                  style="
+                    padding-top: 18px;
+                    padding-bottom: 52px;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                    width: 480px;
+                    display: flex;
+                    border-radius: 17px;
+                    background-image: linear-gradient(
+                      74deg,
+                      #00c6fb 0%,
+                      #005bea 99.33%
+                    );
+                  "
+                >
+                  <div style="width: 260px; padding-right: 10px">
+                    <div
+                      style="
+                        padding-bottom: 12px;
+                        font-family: Arial;
+                        font-size: 1.125em;
+                        font-weight: 700;
+                        line-height: 20px;
+                        color: #ffffff;
+                      "
+                    >
+                      Sveta111, win! <br />
+                      lottery gifts
+                    </div>
+                    <span
+                      style="
+                        padding-bottom: 12px;
+                        display: block;
+                        font-family: Arial;
+                        font-size: 1em;
+                        font-weight: 400;
+                        line-height: calc(20 / 16);
+                        color: #ffffff;
+                      "
+                    >
+                      We have a whole "Universe of Prizes" and we are ready to
+                      share great gifts with you! All you have to do to get them
+                      is win an exciting lottery that runs every day.
+                    </span>
+                    <button
+                      type="button"
+                      style="
+                        padding: 8px 56px;
+                        min-width: 146px;
+                        font-family: Arial;
+                        font-size: 1em;
+                        font-weight: 700;
+                        line-height: calc(24 / 16);
+                        border-radius: 100px;
+                        border: none;
+                        background: linear-gradient(
+                          90deg,
+                          #29323c 0%,
+                          #485563 100%
+                        );
+                        color: #ffffff;
+                      "
+                    >
+                      Play
+                    </button>
+                  </div>
+                  <img
+                    src="./images/img-first-desk.png"
+                    alt="monitor of imac"
+                    width="210"
+                    height="210"
+                  />
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              padding-top: 30px;
-              padding-bottom: 30px;
-              padding-right: 40px;
-              padding-left: 40px;
-
-              max-width: 320px;
-              margin-right: auto;
-              margin-left: auto;
-            "
-          >
-            <h2>Become a champion in tournaments</h2>
-            <p>
-              We have a whole "Universe of Prizes" and we are ready to share
-              great gifts with you! All you have to do to get them is win an
-              exciting lottery that runs every day.
-            </p>
-            <button type="button">Play</button>
-            <img
-              src="./images/img-second-desk.jpg"
-              alt="tablet of lenovo"
-              width="210"
-              height="157"
-            />
+          <td>
+            <table
+              cellpadding="0"
+              cellspacing="0"
+              align="center"
+              style="padding-bottom: 20px"
+            >
+              <tr>
+                <td
+                  style="
+                    padding-top: 21px;
+                    padding-bottom: 52px;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                    width: 480px;
+                    display: flex;
+                    border-radius: 17px;
+                    background-image: linear-gradient(
+                      74deg,
+                      #00c6fb 0%,
+                      #005bea 99.33%
+                    );
+                  "
+                >
+                  <div style="width: 260px; padding-right: 10px">
+                    <div
+                      style="
+                        padding-bottom: 12px;
+                        font-family: Arial;
+                        font-size: 1.125em;
+                        font-weight: 700;
+                        line-height: 20px;
+                        color: #ffffff;
+                      "
+                    >
+                      Become a champion in tournaments
+                    </div>
+                    <span
+                      style="
+                        padding-bottom: 12px;
+                        display: block;
+                        font-family: Arial;
+                        font-size: 1em;
+                        font-weight: 400;
+                        line-height: calc(20 / 16);
+                        color: #ffffff;
+                      "
+                    >
+                      We have a whole "Universe of Prizes" and we are ready to
+                      share great gifts with you! All you have to do to get them
+                      is win an exciting lottery that runs every day.
+                    </span>
+                    <button
+                      type="button"
+                      style="
+                        padding: 8px 56px;
+                        min-width: 146px;
+                        font-family: Arial;
+                        font-size: 1em;
+                        font-weight: 700;
+                        line-height: calc(24 / 16);
+                        border-radius: 100px;
+                        border: none;
+                        background: linear-gradient(
+                          90deg,
+                          #29323c 0%,
+                          #485563 100%
+                        );
+                        color: #ffffff;
+                      "
+                    >
+                      Play
+                    </button>
+                  </div>
+                  <img
+                    src="./images/img-second-desk.png"
+                    alt="tablet"
+                    width="210"
+                    height="210"
+                  />
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              padding-top: 30px;
-              padding-bottom: 30px;
-              padding-right: 40px;
-              padding-left: 40px;
-
-              max-width: 320px;
-              margin-right: auto;
-              margin-left: auto;
-            "
-          >
-            <h2>Claim your Bonuses</h2>
-            <p>
-              Generous gifts are waiting for you in the form of no deposit
-              bonuses and free spins in hot slots.
-            </p>
-            <button type="button">Take</button>
-            <img
-              src="./images/img-third-desk.jpg"
-              alt="treasure"
-              width="210"
-              height="210"
-            />
+          <td>
+            <table
+              cellpadding="0"
+              cellspacing="0"
+              align="center"
+              style="padding-bottom: 32px"
+            >
+              <tr>
+                <td
+                  style="
+                    padding: 35px 20px 35px 20px;
+                    width: 480px;
+                    display: flex;
+                    border-radius: 17px;
+                    background-image: linear-gradient(
+                      74deg,
+                      #00c6fb 0%,
+                      #005bea 99.33%
+                    );
+                  "
+                >
+                  <div style="width: 260px; padding-right: 10px">
+                    <div
+                      style="
+                        padding-bottom: 12px;
+                        padding-top: 33px;
+                        font-family: Arial;
+                        font-size: 1.125em;
+                        font-weight: 700;
+                        line-height: 20px;
+                        color: #ffffff;
+                      "
+                    >
+                      Claim your Bonuses
+                    </div>
+                    <span
+                      style="
+                        padding-bottom: 12px;
+                        display: block;
+                        font-family: Arial;
+                        font-size: 1em;
+                        font-weight: 400;
+                        line-height: calc(20 / 16);
+                        color: #ffffff;
+                      "
+                    >
+                      Generous gifts are waiting for you in the form of no
+                      deposit bonuses and free spins in hot slots.
+                    </span>
+                    <button
+                      type="button"
+                      style="
+                        padding: 8px 56px;
+                        min-width: 146px;
+                        font-family: Arial;
+                        font-size: 1em;
+                        font-weight: 700;
+                        line-height: calc(24 / 16);
+                        border-radius: 100px;
+                        border: none;
+                        background: linear-gradient(
+                          90deg,
+                          #29323c 0%,
+                          #485563 100%
+                        );
+                        color: #ffffff;
+                      "
+                    >
+                      Take
+                    </button>
+                  </div>
+                  <img
+                    src="./images/img-third-desk.png"
+                    alt="treasure"
+                    width="210"
+                    height="210"
+                  />
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
         <tr>
-          <td
-            style="
-              padding-top: 30px;
-              padding-bottom: 30px;
-              padding-right: 40px;
-              padding-left: 40px;
-
-              max-width: 320px;
-              margin-right: auto;
-              margin-left: auto;
-            "
-          >
-            <p>If you have questions, please contact us:</p>
-            <a href="mailto:support@support.email">
-              <img
-                src="./images/icon-envelope.png"
-                alt="link to email"
-                width="18"
-                height="18"
-                style="width: 18px; height: 18px"
-              />
-              support@support.email
-            </a>
-            <a href="tel:1234566789">
-              <img
-                src="./images/icon-phone.png"
-                alt="link to call"
-                width="18"
-                height="18"
-                style="width: 18px; height: 18px"
-              />
-              1234566789
-            </a>
-            <p>Some games and bonuses may not be available in your country.</p>
-            <p>
-              You take all the credit for the fact that you have registered on
-              our site. For a return link with us, please send a copy to the
-              whole sheet. You can <a href="#">subscribe</a>
-            </p>
+          <td>
+            <table cellpadding="0" cellspacing="0" style="text-align: center">
+              <tr>
+                <td
+                  style="
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    padding-right: 40px;
+                    padding-left: 40px;
+                    width: 520px;
+                  "
+                >
+                  <span
+                    style="
+                      padding-bottom: 10px;
+                      display: block;
+                      font-family: Arial;
+                      font-size: 14px;
+                      font-weight: 400;
+                      line-height: calc(16 / 14);
+                      color: #52575c;
+                    "
+                    >If you have questions, please contact us:</span
+                  >
+                  <div style="padding-bottom: 16px">
+                    <a
+                      href="mailto:support@support.email"
+                      style="
+                        padding-right: 26px;
+                        font-family: Arial;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: calc(20 / 14);
+                        color: #52575c;
+                        text-decoration: none;
+                      "
+                    >
+                      <img
+                        src="./images/icon-envelope.png"
+                        alt="link to email"
+                        width="18"
+                        height="18"
+                        style="
+                          padding-right: 14px;
+                          width: 18px;
+                          height: 18px;
+                          vertical-align: middle;
+                        "
+                      />
+                      support@support.email
+                    </a>
+                    <a
+                      href="tel:1234566789"
+                      style="
+                        font-family: Arial;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: calc(20 / 14);
+                        color: #52575c;
+                        text-decoration: none;
+                      "
+                    >
+                      <img
+                        src="./images/icon-phone.png"
+                        alt="link to call"
+                        width="18"
+                        height="18"
+                        style="
+                          padding-right: 14px;
+                          width: 18px;
+                          height: 18px;
+                          vertical-align: middle;
+                        "
+                      />
+                      1234566789
+                    </a>
+                  </div>
+                  <span
+                    style="
+                      width: 520px;
+                      height: 1px;
+                      display: block;
+                      opacity: 0.3;
+                      background-color: #0c0f51;
+                    "
+                  ></span>
+                  <span
+                    style="
+                      padding-top: 16px;
+                      padding-bottom: 16px;
+                      display: block;
+                      font-family: Arial;
+                      font-size: 14px;
+                      font-weight: 400;
+                      line-height: calc(16 / 14);
+                      color: #52575c;
+                    "
+                    >Some games and bonuses may not be available in your
+                    country.</span
+                  >
+                  <div
+                    style="
+                      font-family: Arial;
+                      font-size: 14px;
+                      font-weight: 400;
+                      line-height: calc(16 / 14);
+                      color: #52575c;
+                    "
+                  >
+                    You take all the credit for the fact that you have
+                    registered on our site.
+                    <div
+                      style="
+                        font-family: Arial;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: calc(16 / 14);
+                        color: #52575c;
+                      "
+                    >
+                      For a return link with us, please send a copy to the whole
+                      sheet.
+                    </div>
+                    You can
+                    <a
+                      href="#"
+                      style="
+                        font-family: Arial;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: calc(16 / 14);
+                        color: #1245ff;
+                        text-decoration-line: underline;
+                      "
+                      >subscribe</a
+                    >
+                  </div>
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
       </tbody>
